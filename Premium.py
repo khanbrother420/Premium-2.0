@@ -182,7 +182,7 @@ else:
 	
 	
     print("Your key  : "+key2)
-    print("\n\t\tContact Admin Type👉 python premium.py ⚠ Enter ")
+    print("\n\t\tContact Admin Type👉 python Premium.py ⚠ Enter ")
 	
 	
     os.system('xdg-open https://www.facebook.com/Mr.KhanVau420')
